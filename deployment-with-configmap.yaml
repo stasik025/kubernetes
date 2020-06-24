@@ -49,7 +49,7 @@ spec:
           volumeMounts:
             - name: config
               mountPath: /etc/nginx/conf.d/
-        volumes:
-          - name: config
-            configMap:
-              name: my-configmap            
+      volumes:
+        - name: config
+          configMap:
+            name: my-configmap
