@@ -25,7 +25,7 @@ spec:
               value: foo
             - name: TEST_1
               valueFrom:
-                secrectKeyRef:
+                secretKeyRef:
                   name: test
                   key: test1
           ports:
