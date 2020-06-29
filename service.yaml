@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      targerPort: 80
+      targetPort: 80
   selector:
     app: my-app
   type: ClusterIP
